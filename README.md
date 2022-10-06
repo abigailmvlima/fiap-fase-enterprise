@@ -1,6 +1,5 @@
-# fiap-fase2-responsivo
+# fiap
 
-Capitulo 11 - Fase 2
 
 Layout no modelo web desktop e tablet
 
