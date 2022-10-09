@@ -305,7 +305,8 @@ main > .banner-search > .search-reserve > .header {
   position: absolute;
   top: 8%;
   left: 0;
-  height: 416px;
+  height:fit-content;
+  min-height: 416px;
   width: 35%;
   min-width: 355px;
   border: 1px solid #cacaca;
