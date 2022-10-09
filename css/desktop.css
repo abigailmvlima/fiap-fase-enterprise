@@ -4,6 +4,12 @@ main {
   flex-direction: column;
   margin: 0 2%!important;
 }
+.mainDark {
+  display: flex;
+  background: #171613;
+  flex-direction: column;
+  margin: 0 2%!important;
+}
 
 header {
   display: flex;
@@ -12,6 +18,7 @@ header {
   margin: 0 2%!important;
   margin-bottom: 20px!important;
 }
+
 
 p {
   font-size: 12px;
@@ -85,6 +92,38 @@ a {
   letter-spacing: 1px;
   color: rgb(155, 39, 209);
 }
+.menuDark{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 8px 8px;
+  background-color:#171613 ;
+}
+.menuDark a {
+  display: flex;
+  align-items: center;
+  width: auto;
+  flex-direction: row;
+  color:#fff
+}
+
+.menuDark > nav > ul {
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}
+
+.menuDark > nav > ul > li {
+  list-style-type: none;
+  padding: 10px 5px;
+}
+
+.menuDark > nav > ul > li > a {
+  font-size: 13px;
+  font-weight: 500;
+}
 
 .menu a {
   display: flex;
@@ -147,6 +186,45 @@ main > .banner-search > .search-reserve {
 main > .banner-search > .search-reserve > .header {
   margin-bottom: 10px;
 }
+
+.mainDark {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.mainDark > .banner-search {
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+}
+
+.mainDark > .banner-search > img {
+  border-radius: 15px;
+  width: 74%;
+  min-height: 516px;
+}
+
+.mainDark > .banner-search > .search-reserve {
+  display: flex;
+  flex-direction: column;
+  background-color: #171613;
+  position: absolute;
+  top: 8%;
+  left: 0;
+  height: 416px;
+  width: 35%;
+  min-width: 355px;
+  border: 1px solid #cacaca;
+  box-shadow: 3px 3px 20px #343434;
+  border-radius: 20px;
+  padding: 25px;
+}
+
+.mainDark > .banner-search > .search-reserve > .header {
+  margin-bottom: 10px;
+}
+
 
 .row-input {
   display: flex;
@@ -416,11 +494,11 @@ switch {
 }
 
 input:checked + .slider {
-  background-color: #2196F3;
+  background-color: rgb(155, 39, 209);
 }
 
 input:focus + .slider {
-  box-shadow: 0 0 1px #2196F3;
+  box-shadow: 0 0 1px rgb(155, 39, 209);
 }
 
 input:checked + .slider:before {
