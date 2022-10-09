@@ -4,9 +4,9 @@
   }
 
   header {
-    margin: 0 5%!important;
-    margin-top: 20px!important;
-    margin-bottom: 50px!important;
+    margin: 0 5% !important;
+    margin-top: 20px !important;
+    margin-bottom: 50px !important;
   }
 
   h2 {
@@ -37,28 +37,27 @@
   .menu > nav > ul > li {
     padding: 10px 15px;
   }
-  
+
   .menu > nav > ul > li > a {
     font-size: 30px;
   }
-
 
   main > .banner-search {
     justify-content: flex-start;
   }
 
-  main > .banner-search > img {
+  main > .banner-search .base-banner {
     display: none;
   }
 
   main > .banner-search > .search-reserve > .header h2 {
-    margin-top: 40px!important;
-    padding: 0;    
+    margin-top: 40px !important;
+    padding: 0;
   }
 
   main > .banner-search > .search-reserve > .header p {
     margin-top: 20px;
-    margin-bottom: 40px!important;
+    margin-bottom: 40px !important;
     text-align: center;
   }
 
@@ -144,7 +143,7 @@
   .assessments p {
     font-size: 25px;
   }
-  
+
   .assessments p strong {
     font-size: 25px;
   }
@@ -157,7 +156,7 @@
   .box-base > :nth-child(1) {
     margin-right: 0;
   }
-  
+
   .box-base > :nth-child(2) {
     margin-right: 0;
   }
