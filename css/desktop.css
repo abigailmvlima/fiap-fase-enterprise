@@ -18,6 +18,13 @@ header {
   margin: 0 2%!important;
   margin-bottom: 20px!important;
 }
+.headerDark {
+  display: flex;
+  background: #171613;
+  flex-direction: column;
+  margin: 0 2%!important;
+  margin-bottom: 20px!important;
+}
 
 
 p {
@@ -224,6 +231,12 @@ main > .banner-search > .search-reserve > .header {
 .mainDark > .banner-search > .search-reserve > .header {
   margin-bottom: 10px;
 }
+.mainDark > .banner-search > .search-reserve > .header  h2 {
+  color:#fff;
+}
+.mainDark > .banner-search > .search-reserve > .header  p {
+  color:#cacaca;
+}
 
 
 .row-input {
@@ -236,6 +249,75 @@ main > .banner-search > .search-reserve > .header {
 
 .row-input > :nth-child(1) {
   margin-right: 10px;
+}
+
+.input-searchDark {
+  display: flex;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.input-searchDark select{
+  color:#fff
+}
+
+.input-searchDark .input-layout {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  border: 1px solid rgb(149, 149, 149);
+  z-index: 0;
+}
+
+.input-searchDark label {
+  display: flex;
+  margin: 10px;
+  flex-direction: column;
+  color:#fff;
+}
+
+.input-searchDark span {
+  display: flex;
+  margin-bottom: 5px;
+  flex-direction: column;
+  font-size: 10px;
+  letter-spacing: 1px;
+  z-index: 100;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.input-searchDark input {
+  display: flex;
+  z-index: 100;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 15px;
+  -webkit-appearance: none;
+  color:#fff
+}
+
+.input-searchDark input:focus + .input-layout {
+  border: 1px solid rgb(149, 149, 149);
+}
+
+.input-searchDark select:focus + .input-layout {
+  border: 1px solid rgb(149, 149, 149);
+}
+
+.input-searchDark select {
+  display: flex;
+  width: 120px;
+  z-index: 100;
+  outline: none;
+  border: none;
+  box-sizing: border-box;
+  font-size: 15px;
+  background-color: #171613;
 }
 
 .input-search {
