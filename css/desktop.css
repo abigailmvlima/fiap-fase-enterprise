@@ -415,6 +415,22 @@ main > .banner-search > .search-reserve > .header {
   padding-top: 40px;
 }
 
+.sacDark {
+  display: flex;
+  flex-direction: column;
+  margin-top: 60px;
+  border-top: 1px solid rgb(188, 188, 188);
+  padding-top: 40px;
+}
+
+.sacDark h2{
+  color:#fff;
+}
+
+.sacDark p{
+  color:#fff;
+}
+
 .box-base {
   display: flex;
   flex-direction: row;
@@ -507,6 +523,24 @@ main > .banner-search > .search-reserve > .header {
   font-size: 15px;
 }
 
+.assessmentsDark p {
+  font-size: 15px;
+  color:#fff
+}
+
+.assessmentsDark p strong {
+  font-size: 15px;
+  color:#fff
+}
+.assessmentsDark h2 {
+  margin-top: 15px;
+  color:#fff
+}
+
+.assessmentsDark span {
+  color:#fff
+}
+
 footer {
   margin: 0 5%!important;
   display: flex;
@@ -525,7 +559,30 @@ footer > p {
 footer > div > a i {
   display: flex;
   margin-right: 20px;
-  color: rgb(27, 28, 29);
+  color: #fff;
+  font-size: 35px !important;
+}
+
+.footerDark {
+  margin: 0 5%!important;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  margin-top: 50px!important;
+  border-top: 1px solid rgb(188, 188, 188);
+  padding-top: 15px;  
+  margin-bottom: 30px!important;
+}
+
+.footerDark > p {
+    font-size: 20px;
+    color: #fff;  
+}
+
+.footerDark > div > a i {
+  display: flex;
+  margin-right: 20px;
+  color: #fff;
   font-size: 35px !important;
 }
 
@@ -596,4 +653,8 @@ input:checked + .slider:before {
 
 .slider.round:before {
   border-radius: 50%;
+}
+
+.footerLinks {
+  display: flex;
 }
