@@ -2,7 +2,7 @@ main {
   display: flex;
   background: #fff;
   flex-direction: column;
-  margin: 0 2%!important;
+  margin: 0 2% !important;
 }
 .mainDark {
   display: flex;
@@ -22,8 +22,8 @@ header {
   display: flex;
   background: #fff;
   flex-direction: column;
-  margin: 0 2%!important;
-  margin-bottom: 20px!important;
+  margin: 0 2% !important;
+  margin-bottom: 20px !important;
 }
 .headerDark {
   display: flex;
@@ -112,15 +112,15 @@ a:hover{
 }
 
 .row-input {
-  display: flex;  
+  display: flex;
 }
 
 .row-input > div {
-  width: 50%;  
+  width: 50%;
 }
 
 .row-input > :nth-child(1) {
-  margin-right: 15px;;
+  margin-right: 15px;
 }
 
 .menu {
@@ -247,9 +247,15 @@ main > .banner-search {
   position: relative;
 }
 
-main > .banner-search > img {
+main > .banner-search .base-banner {
   border-radius: 15px;
   width: 74%;
+  min-height: 516px;
+}
+
+main > .banner-search .base-banner > img {
+  border-radius: 15px;
+  width: 100%;
   min-height: 516px;
 }
 
@@ -592,7 +598,7 @@ main > .banner-search > .search-reserve > .header {
 }
 
 .box-hotel > i {
-  font-size: 70px!important;
+  font-size: 70px !important;
   margin-bottom: 10px;
   color: rgb(155, 39, 209);
 }
@@ -646,18 +652,18 @@ main > .banner-search > .search-reserve > .header {
 }
 
 footer {
-  margin: 0 5%!important;
+  margin: 0 5% !important;
   display: flex;
   justify-content: space-between;
   margin-bottom: 20px;
-  margin-top: 50px!important;
+  margin-top: 50px !important;
   border-top: 1px solid rgb(188, 188, 188);
-  padding-top: 15px;  
-  margin-bottom: 30px!important;
+  padding-top: 15px;
+  margin-bottom: 30px !important;
 }
 
 footer > p {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 footer > div > a i {
