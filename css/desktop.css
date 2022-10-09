@@ -18,6 +18,13 @@ main {
   margin: 0 2%!important;
 }
 
+.mainColorBlindness {
+  display: flex;
+  background: #fff;
+  flex-direction: column;
+  margin: 0 2%!important;
+}
+
 header {
   display: flex;
   background: #fff;
@@ -131,12 +138,28 @@ a:hover{
   margin: 8px 8px;
 }
 
+.menuColorBlindness {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 8px 8px;
+}
+
 .menuLetterSize {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   margin: 8px 8px;
+}
+
+.menuColorBlindness .text-logo {
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #fce803;
 }
 
 .text-logo {
@@ -208,6 +231,31 @@ a:hover{
 
 .menuLetterSize > nav > ul > li > a {
   font-size: 20px;
+  font-weight: 500;
+}
+
+
+.menuColorBlindness a {
+  display: flex;
+  align-items: center;
+  width: auto;
+  flex-direction: row;
+}
+
+.menuColorBlindness > nav > ul {
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}
+
+.menuColorBlindness > nav > ul > li {
+  list-style-type: none;
+  padding: 10px 5px;
+}
+
+.menuColorBlindness > nav > ul > li > a {
+  font-size: 15px;
   font-weight: 500;
 }
 
@@ -563,6 +611,13 @@ main > .banner-search > .search-reserve > .header {
   margin: 12px 0;
 }
 
+.mainColorBlindness .box-hotel .stars > i {
+  display: flex;
+  margin-right: 5px;
+  font-size: 16px;
+  color: #fce803;
+}
+
 .box-hotel .stars > i {
   display: flex;
   margin-right: 5px;
@@ -598,6 +653,12 @@ main > .banner-search > .search-reserve > .header {
   font-size: 15px;
 }
 
+
+.mainColorBlindness .box-hotel > i {
+  font-size: 70px !important;
+  margin-bottom: 10px;
+  color: #fce803;
+}
 .box-hotel > i {
   font-size: 70px !important;
   margin-bottom: 10px;
@@ -606,6 +667,10 @@ main > .banner-search > .search-reserve > .header {
 
 .box-hotel > h3 {
   color: rgb(155, 39, 209);
+}
+
+.mainColorBlindness .box-hotel > h3 {
+  color: #fce803;
 }
 
 .mainLetterSize .box-hotel > p {
@@ -742,6 +807,15 @@ switch {
   -webkit-transition: .4s;
   transition: .4s;
 }
+
+.mainColorBlindness input:checked + .slider {
+  background-color:#fce803;
+}
+
+.mainColorBlindness input:focus + .slider {
+  box-shadow: 0 0 1px #fce803;
+}
+
 
 input:checked + .slider {
   background-color: rgb(155, 39, 209);

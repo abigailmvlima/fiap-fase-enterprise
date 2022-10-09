@@ -43,6 +43,26 @@ button[type="execute"]:active {
   color: #fff;
 }
 
+
+button[type="executeColorBlindness"] {
+  display: flex;
+  justify-content: center;
+  background-color:#fce803;
+  color: #fff;
+}
+
+button[type="executeColorBlindness"]:hover {
+  background-color: #fce803;
+  color: #fff;
+}
+
+button[type="executeColorBlindness"]:active {
+  background-color: #fce803;
+  color: #fff;
+}
+
+
+
 select {
   /* Arrow */
   appearance: none;
