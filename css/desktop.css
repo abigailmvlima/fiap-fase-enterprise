@@ -25,6 +25,10 @@ main {
   margin: 0 2%!important;
 }
 
+.mainColorBlindness img{
+  filter: grayscale(100%);
+}
+
 header {
   display: flex;
   background: #fff;
@@ -322,6 +326,7 @@ main > .banner-search > .search-reserve {
   box-shadow: 3px 3px 20px #343434;
   border-radius: 20px;
   padding: 25px;
+  z-index: 999;
 }
 
 main > .banner-search > .search-reserve > .header {
