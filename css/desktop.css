@@ -769,3 +769,12 @@ input:checked + .slider:before {
 .footerLinks {
   display: flex;
 }
+
+.colorBlindnessIcon {
+  display: flex;
+  width: 35px;
+  height: 35px;
+  margin:0 20px 0 0;
+  background-image:url("../images/colorBlindnessIcon.png");
+  cursor: pointer;
+}
