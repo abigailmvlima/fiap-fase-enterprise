@@ -3,7 +3,7 @@
 
 Layout no modelo web desktop e tablet
 
-<img width="879" alt="image" src="https://user-images.githubusercontent.com/6618004/193459198-ef0686d6-7cc7-43bb-aa7f-553cb84130c4.png">
+![image](https://user-images.githubusercontent.com/6618004/194792111-ed2809cf-badb-4152-8b40-329b6dd3531a.png)
 
 <img width="880" alt="image" src="https://user-images.githubusercontent.com/6618004/193459211-35722527-3996-49bb-acde-095faac09151.png">
 
