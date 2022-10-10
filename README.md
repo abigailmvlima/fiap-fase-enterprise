@@ -17,7 +17,9 @@ DESAFIO DE ACESSIBILIDADE E INCLUSÃO
   * RM96395 - Kaique Bernardo
 
 
-# Para executar o projeto rodar no vscode o liveServer -
+# Print da parte do codigo fonte esta no final do arquivo.
+
+# Para executar o projeto rodar no vscode o liveServer
 http://127.0.0.1:5500/pages/letterSize/index.html
 
 # Layout no modelo web desktop e tablet - Comum
@@ -26,19 +28,19 @@ http://127.0.0.1:5500/pages/letterSize/index.html
 
 ![image](https://user-images.githubusercontent.com/6618004/194792158-52ab3082-45ba-4333-9372-275c2db93489.png)
 
-Layout no modelo web desktop e tablet - Dark
+# Layout no modelo web desktop e tablet - Dark
 
 ![image](https://user-images.githubusercontent.com/6618004/194792211-9d896f75-df7f-4964-8523-819ca7389ad5.png)
 
 ![image](https://user-images.githubusercontent.com/6618004/194792221-686e6570-7b5e-4899-b55d-3745fa59ba86.png)
 
-Layout no modelo web desktop e tablet - Daltonismo
+# Layout no modelo web desktop e tablet - Daltonismo
 
 ![image](https://user-images.githubusercontent.com/6618004/194792252-85cfd6c9-9eed-43af-bcce-e67bf66eb508.png)
 
 ![image](https://user-images.githubusercontent.com/6618004/194792258-db278d37-f5ce-4bc7-9da1-1fad22f739f9.png)
 
-Layout no modelo web desktop e tablet - Letras Grandes
+# Layout no modelo web desktop e tablet - Letras Grandes
 
 ![image](https://user-images.githubusercontent.com/6618004/194792324-3f427738-7773-4907-93b0-5c2f35d3330b.png)
 
