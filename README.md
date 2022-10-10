@@ -1,22 +1,82 @@
 # fiap
 
 
-Layout no modelo web desktop e tablet
+# Para executar o projeto rodar no vscode o liveServer -
+http://127.0.0.1:5500/pages/letterSize/index.html
+
+# Layout no modelo web desktop e tablet - Comum
 
 ![image](https://user-images.githubusercontent.com/6618004/194792111-ed2809cf-badb-4152-8b40-329b6dd3531a.png)
 
-<img width="880" alt="image" src="https://user-images.githubusercontent.com/6618004/193459211-35722527-3996-49bb-acde-095faac09151.png">
+![image](https://user-images.githubusercontent.com/6618004/194792158-52ab3082-45ba-4333-9372-275c2db93489.png)
 
-Layout no modelo mobile
+Layout no modelo web desktop e tablet - Dark
 
-![WhatsApp Image 2022-10-02 at 11 26 09](https://user-images.githubusercontent.com/6618004/193459267-e3e839d1-2430-4545-9079-b3b1272eefa9.jpg)
+![image](https://user-images.githubusercontent.com/6618004/194792211-9d896f75-df7f-4964-8523-819ca7389ad5.png)
 
-![WhatsApp Image 2022-10-02 at 11 26 10](https://user-images.githubusercontent.com/6618004/193459272-035d9dad-449f-4d45-9c62-f573df41e075.jpg)
+![image](https://user-images.githubusercontent.com/6618004/194792221-686e6570-7b5e-4899-b55d-3745fa59ba86.png)
 
-![WhatsApp Image 2022-10-02 at 11 26 11](https://user-images.githubusercontent.com/6618004/193459277-f4a2cbcf-c4ea-4d61-a801-723c97b7173d.jpg)
+Layout no modelo web desktop e tablet - Daltonismo
 
-![WhatsApp Image 2022-10-02 at 11 26 11](https://user-images.githubusercontent.com/6618004/193459342-115621ec-f03d-47ba-aa1a-cee0d98ee1f6.jpg)
+![image](https://user-images.githubusercontent.com/6618004/194792252-85cfd6c9-9eed-43af-bcce-e67bf66eb508.png)
 
-![WhatsApp Image 2022-10-02 at 11 26 12](https://user-images.githubusercontent.com/6618004/193459348-7bd1b16a-d25e-4480-b792-1299318c7b38.jpg)
+![image](https://user-images.githubusercontent.com/6618004/194792258-db278d37-f5ce-4bc7-9da1-1fad22f739f9.png)
 
-![WhatsApp Image 2022-10-02 at 11 26 13](https://user-images.githubusercontent.com/6618004/193459355-438101e7-5e52-4fd4-b0a2-26177e2e4ac5.jpg)
+Layout no modelo web desktop e tablet - Letras Grandes
+
+![image](https://user-images.githubusercontent.com/6618004/194792324-3f427738-7773-4907-93b0-5c2f35d3330b.png)
+
+![image](https://user-images.githubusercontent.com/6618004/194792346-420af067-bb92-4b7e-82ff-fe63babc4332.png)
+
+![image](https://user-images.githubusercontent.com/6618004/194792352-77f7817e-474e-46f1-be8f-92982d3d78e1.png)
+
+
+# Layout no modelo mobile
+
+![image](https://user-images.githubusercontent.com/6618004/194792372-73e2f6b1-58a6-4ca7-a817-56c01d37fea1.png)
+
+![image](https://user-images.githubusercontent.com/6618004/194792385-c1c9aaa7-f385-4528-bba1-a380136088da.png)
+
+![image](https://user-images.githubusercontent.com/6618004/194792394-c3bcab9c-585c-46c2-84a2-6c01eceb441a.png)
+
+![image](https://user-images.githubusercontent.com/6618004/194792409-2bfbce45-ffaa-4894-b9db-8748b912fe5d.png)
+
+![image](https://user-images.githubusercontent.com/6618004/194792420-88c81301-1688-491f-8f66-eac92052fbc9.png)
+
+# Layout no modelo mobile - dark 
+
+![image](https://user-images.githubusercontent.com/6618004/194792433-4d05bd76-9903-4788-989a-e2b58a499573.png)
+
+![image](https://user-images.githubusercontent.com/6618004/194792449-b94b0545-64d5-40c4-82d5-bb156d00dbf4.png)
+
+![image](https://user-images.githubusercontent.com/6618004/194792469-d4f2a155-0030-4739-aac8-60f0fcabe9c4.png)
+
+![image](https://user-images.githubusercontent.com/6618004/194792484-6328110c-67e6-4f2d-bd19-0f55a8fbf0f8.png)
+
+![image](https://user-images.githubusercontent.com/6618004/194792502-5c3d5db0-e32a-46a3-8749-d073d7ee3d32.png)
+
+
+# Layout no modelo mobile - Daltonismo
+
+
+![image](https://user-images.githubusercontent.com/6618004/194792526-3460026f-e65a-4a0b-ba50-1181d44bd11d.png)
+
+![image](https://user-images.githubusercontent.com/6618004/194792538-7ea422e0-77b1-4b3d-8dc1-8ec5aa3e42a3.png)
+
+![image](https://user-images.githubusercontent.com/6618004/194792552-71359e60-1015-4f72-8cf2-d95aab297f57.png)
+
+![image](https://user-images.githubusercontent.com/6618004/194792564-f2f2d7d7-931c-4394-af5b-88e3e3c8bbe4.png)
+
+![image](https://user-images.githubusercontent.com/6618004/194792574-e230ebaa-7b73-4ca9-b92a-b526b8f73c43.png)
+
+
+Layout no modelo mobile - Letras Grandes
+
+![image](https://user-images.githubusercontent.com/6618004/194792596-17fbc653-8518-451b-9f7c-122058dc2a17.png)
+
+![image](https://user-images.githubusercontent.com/6618004/194792613-e8d615b5-862a-40cd-af60-97c6662f5035.png)
+
+![image](https://user-images.githubusercontent.com/6618004/194792622-30a9083f-ba95-43be-a3b1-576a816b74c7.png)
+
+![image](https://user-images.githubusercontent.com/6618004/194792637-8653eefe-7901-4843-86ee-b878a8523412.png)
+
