@@ -1,5 +1,21 @@
 # fiap
 
+DESAFIO DE ACESSIBILIDADE E INCLUSÃO
+
+    O Capítulo 9 desta Fase nos fez refletir sobre a democratização da internet de modo que pensemos nossas páginas voltadas para todos os públicos. Por isso, temos a obrigação de pensar para além de nossa esfera social e, de maneira empática, construir uma internet mais inclusiva, já que a acessibilidade é fundamental para que pensemos a usabilidade e a experiência de TODOS os usuários.
+    Visualizando esse cenário e tendo como base os nossos estudos sobre HTML e CSS, incorpore a acessibilidade ao Projeto Gulliver Traveller de modo que ele possa ser adaptado para um ou mais públicos de PCD, pensando na inclusão desses usuários e sua experiência na plataforma.
+    O site e suas páginas com recursos e melhorias de acessibilidade devem estar em um Github para que a empresa parceira possa avaliar e definir os três melhores projetos com base nestes critérios:
+    Acessibilidade.
+    Inclusão de usuários PCD.
+    Recursos de codificação utilizado (HTML e CSS).
+    Funcionalidade das páginas conforme as histórias de usuários levantadas no Product Backlog.
+    A página/site deve estar em um Github, cada integrante do grupo deve enviar um PDF com nome de todos os desenvolvedores do projeto e o link do Github para a plataforma  
+
+# Membros do grupo
+
+  * RM96351 - Abigail de Lima
+  * RM96395 - Kaique Bernardo
+
 
 # Para executar o projeto rodar no vscode o liveServer -
 http://127.0.0.1:5500/pages/letterSize/index.html
@@ -79,4 +95,18 @@ Layout no modelo mobile - Letras Grandes
 ![image](https://user-images.githubusercontent.com/6618004/194792622-30a9083f-ba95-43be-a3b1-576a816b74c7.png)
 
 ![image](https://user-images.githubusercontent.com/6618004/194792637-8653eefe-7901-4843-86ee-b878a8523412.png)
+
+# Organização do código
+
+![image](https://user-images.githubusercontent.com/6618004/194792766-65ee112d-3106-4261-870c-1b0ed288b2dd.png)
+
+![image](https://user-images.githubusercontent.com/6618004/194792846-7cf382e3-9986-4b9a-b155-573141e317d2.png)
+
+![image](https://user-images.githubusercontent.com/6618004/194792864-be435e3f-1dac-4c5b-a436-c3dd16db0a01.png)
+
+![image](https://user-images.githubusercontent.com/6618004/194792874-5985df39-1f96-42bb-a2f3-db5a8a4990c8.png)
+
+![image](https://user-images.githubusercontent.com/6618004/194792883-09e54693-dbf1-4eb5-b699-ccc1add6c47f.png)
+
+
 
