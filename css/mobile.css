@@ -115,7 +115,6 @@
     width: auto;
     font-size: 30px;
     padding: 5px 5px 0 5px;
-    background-color: #fff;
   }
 
   .input-search select > option {
@@ -221,5 +220,46 @@
   footer > div > a i {
     font-size: 70px !important;
     margin: 20px;
+  }
+
+  .main {
+    padding: 0 5%;
+  }
+
+  .main header {
+    flex-direction: column;
+  }
+
+  .main header a {
+    display: flex;
+    margin-top: 25px;
+    margin-bottom: 15px;
+  }
+
+  .main header nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .main header nav li {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .main header nav li > div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .switchContainer {
+    margin-top: 25px;
+  }
+
+  .main > .banner-search {
+    justify-content: flex-start;
   }
 }

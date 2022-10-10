@@ -2,6 +2,7 @@
 
 /* https://fontawesome.com/v4/icons/#new */
 
+/* theme global */ 
 * {
     margin: 0;
     padding: 0;
@@ -61,3 +62,133 @@
 .mb15 { margin-bottom: 15px; }
 .mr15 { margin-right: 15px; }
 .ml15 { margin-left: 15px; }
+
+
+/* theme dark */ 
+
+.dark {
+  background-color: #171613;
+  color: #fff;
+}
+
+.dark input {
+  background-color: transparent;
+  color: #fff;
+}
+
+.dark select {
+  color: #fff;
+  background-color: transparent !important;
+}
+
+.dark select option {
+  color: #fff;
+  background-color: #000;
+}
+
+.dark a {
+  color: #fff;
+}
+
+.dark div {
+  color: #fff;
+  background-color: #171613;
+}
+
+.dark label {
+  color: #fff;
+  background-color: #171613;
+}
+
+.dark * {
+  color: #fff;
+  background-color: transparent;
+}
+
+.dark .banner-search {
+  color: #fff;
+}
+
+.dark main > .banner-search > .search-reserve {
+  background-color: #171613;
+}
+
+/* theme colorBlindness */ 
+.colorBlindness .input-search label > span {
+  color: #000!important;
+}
+
+.colorBlindness input {
+  background-color: transparent;
+}
+
+.colorBlindness select {
+  background-color: transparent !important;
+}
+
+.colorBlindness a {
+}
+
+.colorBlindness > .menu span {
+  color: #fce803!important;
+}
+
+.colorBlindness button {
+  background-color: #fce803!important;
+  color: #988b00!important;
+}
+
+.colorBlindness button span{
+  background-color: #fce803!important;
+  color: #ffffff!important;
+}
+
+
+.colorBlindness .box-hotel i {
+  color: #fce803!important;
+}
+
+.colorBlindness h3 {
+  color: #fce803!important;
+}
+
+.colorBlindness i {
+  color: #fce803!important;
+}
+
+.colorBlindness img {
+  filter: grayscale(100%);
+}
+
+.colorBlindness main > .banner-search > .search-reserve {
+  background-color: #fff;
+}
+
+/* theme letterSize */ 
+.letterSize h2 {
+  font-size: 65px;
+}
+
+.letterSize h3 {
+  font-size: 55px;
+}
+
+.letterSize p {
+  font-size: 35px!important;
+}
+
+.letterSize .menu .text-logo  {
+  font-size: 55px!important;
+}
+
+.letterSize span {
+  font-size: 30px!important;
+}
+
+.letterSize p strong {
+  font-size: 35px!important;
+}
+
+.letterSize i {
+  font-size: 90px;
+}

@@ -8,41 +8,45 @@
     <link rel="stylesheet" type="text/css" href="../../css/forms.css" media="screen" />
     <link rel="stylesheet" href="../../css/desktop.css" />
     <link rel="stylesheet" href="../../css/mobile.css" />
-    <script src="js/moment.js"></script>
-    <script src="js/jquery-3.6.1.min.js"></script>
-    <!-- <link rel="stylesheet" type="text/css" href="css/tablet.css" media="screen" /> -->
+    <script src="../../js/moment.js"></script>
+    <script src="../../js/jquery-3.6.1.min.js"></script>
 </head>
 
-<body>
-    <header class="menuLetterSize">
-        <a href="../../index.html" tabindex="0">
-            <i class="text-logo-mainLetterSize mr10 fa fa-bed" alt="logo de uma cama"></i>
-            <span class="text-logo-mainLetterSize">Traveller</span>
+<body class="main letterSize">
+    <header class="menu">
+        <a href="../home/index.html">
+            <i class="text-logo mr10 fa fa-bed" alt="logo de uma cama">
+            </i>
+            <span class="text-logo">Traveller</span>
         </a>
 
         <nav>
-
             <ul>
 
-                <li>
-
+                <li tabindex="-1">
                     <div class="switchContainer">
                         <label class="switch">
-                            <a href="./pages/darkMode/index.html">
+                            <a href="../darkMode/index.html">
                                 <input type="checkbox">
                                 <span class="slider round"></span>
                             </a>
                         </label>
                     </div>
                 </li>
-                <li><a href="../../index.html">aA</a></li>
+                <li><a href="../colorBlindness/">
+                        <div class="colorBlindnessIcon">
+                            <img src="../../images/colorBlindnessIcon.png" tabindex="0">
+                        </div>
+                    </a>
+                </li>
+                <li><a href="../home/index.html" href="#">aA</a></li>
                 <li><a href="#">Ajuda</a></li>
-                <li><a href="#">Cadastre-se</a></li>
+                <li><a href="#">Cadastro</a></li>
                 <li><a href="#">Entrar</a></li>
             </ul>
         </nav>
     </header>
-    <main class="mainLetterSize">
+    <main class="main">
         <div class="banner-search">
             <div class="search-reserve">
                 <div class="header">
@@ -230,7 +234,7 @@
             <a href="#" tabindex="0"><i class="fa fa-twitter" alt="ícone twitter" tabindex="-1"></i></a>
         </div>
     </footer>
-    <script src="js/load.js"></script>
+    <script src="../../js/load.js"></script>
 </body>
 
 </html>
