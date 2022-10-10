@@ -8,24 +8,24 @@ main {
   display: flex;
   background: #171613;
   flex-direction: column;
-  margin: 0 2%!important;
+  margin: 0 2% !important;
 }
 
 .mainLetterSize {
   display: flex;
   background: #fff;
   flex-direction: column;
-  margin: 0 2%!important;
+  margin: 0 2% !important;
 }
 
 .mainColorBlindness {
   display: flex;
   background: #fff;
   flex-direction: column;
-  margin: 0 2%!important;
+  margin: 0 2% !important;
 }
 
-.mainColorBlindness img{
+.mainColorBlindness img {
   filter: grayscale(100%);
 }
 
@@ -40,10 +40,9 @@ header {
   display: flex;
   background: #171613;
   flex-direction: column;
-  margin: 0 2%!important;
-  margin-bottom: 20px!important;
+  margin: 0 2% !important;
+  margin-bottom: 20px !important;
 }
-
 
 p {
   font-size: 12px;
@@ -51,7 +50,7 @@ p {
   padding-bottom: 5px;
 }
 
-.mainLetterSize p{
+.mainLetterSize p {
   font-size: 20px;
   color: #333333;
   padding-bottom: 5px;
@@ -61,7 +60,7 @@ h1 {
   font-size: 32px;
 }
 
-.mainLetterSize h2{
+.mainLetterSize h2 {
   font-size: 40px;
 }
 
@@ -71,7 +70,7 @@ h2 {
   padding-bottom: 5px;
 }
 
-.mainLetterSize h3{
+.mainLetterSize h3 {
   font-size: 35px;
 }
 
@@ -95,13 +94,11 @@ h4 {
   font-size: 27px;
 }
 
-
 h5 {
   font-size: 15px;
   color: #818181;
   padding-bottom: 5px;
 }
-
 
 .mainLetterSize h6 {
   font-size: 18px;
@@ -118,7 +115,7 @@ a {
   color: #000;
 }
 
-a:hover{
+a:hover {
   text-decoration: underline;
 }
 
@@ -181,20 +178,20 @@ a:hover{
   letter-spacing: 1px;
   color: rgb(155, 39, 209);
 }
-.menuDark{
+.menuDark {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   margin: 8px 8px;
-  background-color:#171613 ;
+  background-color: #171613;
 }
 .menuDark a {
   display: flex;
   align-items: center;
   width: auto;
   flex-direction: row;
-  color:#fff
+  color: #fff;
 }
 
 .menuDark > nav > ul {
@@ -237,7 +234,6 @@ a:hover{
   font-size: 20px;
   font-weight: 500;
 }
-
 
 .menuColorBlindness a {
   display: flex;
@@ -305,6 +301,18 @@ main > .banner-search .base-banner {
   min-height: 516px;
 }
 
+main > .banner-search .base-bannerDark {
+  border-radius: 15px;
+  width: 74%;
+  min-height: 516px;
+}
+
+main > .banner-search .base-bannerDark > img {
+  border-radius: 15px;
+  width: 100%;
+  min-height: 516px;
+}
+
 main > .banner-search .base-banner > img {
   border-radius: 15px;
   width: 100%;
@@ -318,7 +326,7 @@ main > .banner-search > .search-reserve {
   position: absolute;
   top: 8%;
   left: 0;
-  height:fit-content;
+  height: fit-content;
   min-height: 416px;
   width: 35%;
   min-width: 355px;
@@ -327,6 +335,10 @@ main > .banner-search > .search-reserve {
   border-radius: 20px;
   padding: 25px;
   z-index: 999;
+}
+
+main > .banner-search .base-bannerDark > p {
+  color: #fff;
 }
 
 main > .banner-search > .search-reserve > .header {
@@ -358,7 +370,7 @@ main > .banner-search > .search-reserve > .header {
   position: absolute;
   top: 8%;
   left: 0;
-  height:fit-content;
+  height: fit-content;
   min-height: 416px;
   width: 35%;
   min-width: 355px;
@@ -371,13 +383,12 @@ main > .banner-search > .search-reserve > .header {
 .mainDark > .banner-search > .search-reserve > .header {
   margin-bottom: 10px;
 }
-.mainDark > .banner-search > .search-reserve > .header  h2 {
-  color:#fff;
+.mainDark > .banner-search > .search-reserve > .header h2 {
+  color: #fff;
 }
-.mainDark > .banner-search > .search-reserve > .header  p {
-  color:#cacaca;
+.mainDark > .banner-search > .search-reserve > .header p {
+  color: #cacaca;
 }
-
 
 .row-input {
   display: flex;
@@ -397,8 +408,8 @@ main > .banner-search > .search-reserve > .header {
   margin-bottom: 10px;
 }
 
-.input-searchDark select{
-  color:#fff
+.input-searchDark select {
+  color: #fff;
 }
 
 .input-searchDark .input-layout {
@@ -416,7 +427,7 @@ main > .banner-search > .search-reserve > .header {
   display: flex;
   margin: 10px;
   flex-direction: column;
-  color:#fff;
+  color: #fff;
 }
 
 .input-searchDark span {
@@ -438,7 +449,7 @@ main > .banner-search > .search-reserve > .header {
   outline: none;
   font-size: 15px;
   -webkit-appearance: none;
-  color:#fff
+  color: #fff;
 }
 
 .input-searchDark input:focus + .input-layout {
@@ -574,12 +585,12 @@ main > .banner-search > .search-reserve > .header {
   padding-top: 40px;
 }
 
-.sacDark h2{
-  color:#fff;
+.sacDark h2 {
+  color: #fff;
 }
 
-.sacDark p{
-  color:#fff;
+.sacDark p {
+  color: #fff;
 }
 
 .box-base {
@@ -658,7 +669,6 @@ main > .banner-search > .search-reserve > .header {
   font-size: 15px;
 }
 
-
 .mainColorBlindness .box-hotel > i {
   font-size: 70px !important;
   margin-bottom: 10px;
@@ -683,18 +693,17 @@ main > .banner-search > .search-reserve > .header {
   font-size: 20px;
 }
 
-
 .box-hotel > p {
   font-weight: 100;
   font-size: 16px;
 }
 
 .mainLetterSize .assessments p {
-  font-size:25px;
+  font-size: 25px;
 }
 
-.mainLetterSize .assessments p strong{
-  font-size:25px;
+.mainLetterSize .assessments p strong {
+  font-size: 25px;
 }
 .assessments p {
   font-size: 15px;
@@ -706,20 +715,20 @@ main > .banner-search > .search-reserve > .header {
 
 .assessmentsDark p {
   font-size: 15px;
-  color:#fff
+  color: #fff;
 }
 
 .assessmentsDark p strong {
   font-size: 15px;
-  color:#fff
+  color: #fff;
 }
 .assessmentsDark h2 {
   margin-top: 15px;
-  color:#fff
+  color: #fff;
 }
 
 .assessmentsDark span {
-  color:#fff
+  color: #fff;
 }
 
 footer {
@@ -740,24 +749,24 @@ footer > p {
 footer > div > a i {
   display: flex;
   margin-right: 20px;
-  color: #fff;
+  color: rgb(147, 147, 147);
   font-size: 35px !important;
 }
 
 .footerDark {
-  margin: 0 5%!important;
+  margin: 0 5% !important;
   display: flex;
   justify-content: space-between;
   margin-bottom: 20px;
-  margin-top: 50px!important;
+  margin-top: 50px !important;
   border-top: 1px solid rgb(188, 188, 188);
-  padding-top: 15px;  
-  margin-bottom: 30px!important;
+  padding-top: 15px;
+  margin-bottom: 30px !important;
 }
 
 .footerDark > p {
-    font-size: 20px;
-    color: #fff;  
+  font-size: 20px;
+  color: #fff;
 }
 
 .footerDark > div > a i {
@@ -767,11 +776,15 @@ footer > div > a i {
   font-size: 35px !important;
 }
 
+.footerLinksDark {
+  display: flex;
+}
+
 .switchContainer {
-display: flex;
-  height:50px;
-width:100px;
-position:relative;
+  display: flex;
+  height: 50px;
+  width: 100px;
+  position: relative;
 }
 
 switch {
@@ -781,7 +794,7 @@ switch {
   height: 34px;
 }
 
-.switch input { 
+.switch input {
   opacity: 0;
   width: 0;
   height: 0;
@@ -790,15 +803,15 @@ switch {
 .slider {
   position: absolute;
   cursor: pointer;
-  height:35px;
-  width:59px;
+  height: 35px;
+  width: 59px;
   top: 0;
   left: 15px;
   right: 0;
   bottom: 0;
   background-color: #ccc;
-  -webkit-transition: .4s;
-  transition: .4s;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
 }
 
 .slider:before {
@@ -809,18 +822,17 @@ switch {
   left: 4px;
   bottom: 4px;
   background-color: white;
-  -webkit-transition: .4s;
-  transition: .4s;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
 }
 
 .mainColorBlindness input:checked + .slider {
-  background-color:#fce803;
+  background-color: #fce803;
 }
 
 .mainColorBlindness input:focus + .slider {
   box-shadow: 0 0 1px #fce803;
 }
-
 
 input:checked + .slider {
   background-color: rgb(155, 39, 209);
@@ -853,7 +865,7 @@ input:checked + .slider:before {
   display: flex;
   width: 35px;
   height: 35px;
-  margin:0 20px 0 0;
-  background-image:url("../images/colorBlindnessIcon.png");
+  margin: 0 20px 0 0;
+  background-image: url("../images/colorBlindnessIcon.png");
   cursor: pointer;
 }
